@@ -48,5 +48,5 @@ get_table_roster <- function(team_id, yearlist, tablename = 0) {
 }
 
 #Example:
-#get_table_roster("TOR",2014, "per_minute") #gets the 2014 data on the Toronto Raptors player stats for the "per minute" table
+get_table_roster("TOR",2010:2012) #gets the 2014 data on the Toronto Raptors player stats for the "per minute" table
 #source: http://www.basketball-reference.com/teams/TOR/2014.html
